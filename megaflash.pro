@@ -1,6 +1,6 @@
-update=18/04/2014 11:52:30 AM
+update=19/04/2014 8:24:18 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -72,6 +72,11 @@ LibName48=w_vacuum
 LibDir=../libKiCad/footprint
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../libKiCad/symbol
@@ -95,8 +100,3 @@ LibName11=w_transistor
 LibName12=w_vacuum
 LibName13=C:/Users/James/Documents/Projects/KicadProjects/ti-stellaris-boosterpack40/bluetooth
 LibName14=74xx
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

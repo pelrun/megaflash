@@ -519,21 +519,21 @@ Entry Wire Line
 Text Label 1800 4250 2    60   ~ 0
 A15EXT
 Text Label 5100 1150 0    60   ~ 0
-L0
+A14
 Text Label 5100 1250 0    60   ~ 0
-A18
+A15
 Text Label 5100 1350 0    60   ~ 0
 A16
 Text Label 5100 1450 0    60   ~ 0
-A14
-Text Label 5100 1550 0    60   ~ 0
-A15
-Text Label 5100 1650 0    60   ~ 0
 A17
+Text Label 5100 1550 0    60   ~ 0
+A18
+Text Label 5100 1650 0    60   ~ 0
+A19
 Text Label 5100 1750 0    60   ~ 0
-L6
+A20
 Text Label 5100 1850 0    60   ~ 0
-L7
+A21
 Text Label 5400 5000 2    60   ~ 0
 A17
 Text Label 5400 5200 2    60   ~ 0
@@ -608,18 +608,18 @@ A18
 Text Label 5400 6200 2    60   ~ 0
 A17
 Text Label 4050 4100 2    60   ~ 0
-L6
+A19
 Text Label 4050 3900 2    60   ~ 0
-L0+L7
+A20+21
 $Comp
 L DIODE D2
 U 1 1 534FD423
-P 5350 1150
-F 0 "D2" H 5350 1200 40  0000 L BNN
-F 1 "DIODE" H 5350 1050 40  0001 C CNN
-F 2 "" H 5350 1150 60  0000 C CNN
-F 3 "" H 5350 1150 60  0000 C CNN
-	1    5350 1150
+P 5350 1750
+F 0 "D2" H 5350 1800 40  0000 L BNN
+F 1 "DIODE" H 5350 1650 40  0001 C CNN
+F 2 "" H 5350 1750 60  0000 C CNN
+F 3 "" H 5350 1750 60  0000 C CNN
+	1    5350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -633,8 +633,8 @@ F 3 "" H 5350 1850 60  0000 C CNN
 	1    5350 1850
 	1    0    0    -1  
 $EndComp
-Text Label 5550 1150 0    60   ~ 0
-L0+L7
+Text Label 5550 1750 0    60   ~ 0
+A20+A21
 $Comp
 L R R3
 U 1 1 534FD610
@@ -930,14 +930,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 4100 3900 4100
 Wire Wire Line
-	3750 3900 4100 3900
+	3700 3900 4100 3900
 Wire Wire Line
 	5450 1850 5500 1850
-Wire Wire Line
-	5500 1850 5500 1150
-Wire Wire Line
-	5450 1150 5850 1150
-Connection ~ 5500 1150
 Wire Wire Line
 	6650 5600 6850 5600
 Wire Wire Line
@@ -1051,8 +1046,6 @@ Wire Wire Line
 	2800 4150 2950 4150
 Wire Wire Line
 	2950 4150 2950 4200
-Wire Wire Line
-	4850 6950 4700 6950
 $Comp
 L LED LD1
 U 1 1 535008BE
@@ -1283,4 +1276,11 @@ Connection ~ 8300 1350
 Connection ~ 8600 1350
 Connection ~ 8900 1350
 Connection ~ 9200 1350
+Wire Wire Line
+	4850 6950 4700 6950
+Wire Wire Line
+	5500 1850 5500 1750
+Wire Wire Line
+	5450 1750 5950 1750
+Connection ~ 5500 1750
 $EndSCHEMATC
