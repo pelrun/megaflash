@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-20 BZR 4243)-testing date = 22/04/2014 8:35:11 PM
+
+BeginCmp
+TimeStamp = /53501BE7;
+Reference = C1;
+ValeurCmp = 100u;
+IdModule  = c_elec_3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53502552;
+Reference = C2;
+ValeurCmp = 10n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53502561;
+Reference = C3;
+ValeurCmp = 10n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353C1C8;
+Reference = C4;
+ValeurCmp = 10n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /535644FA;
+Reference = C5;
+ValeurCmp = 10n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /534FE255;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = sod323;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354ADEC;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = sod323;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354AE08;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = sod323;
+EndCmp
+
+BeginCmp
+TimeStamp = /534D3CAB;
+Reference = J1;
+ValeurCmp = CPC_EXTPORT;
+IdModule  = vasch_strip_25x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354AAEB;
+Reference = J2;
+ValeurCmp = PROG;
+IdModule  = pin_strip_2x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53551EE8;
+Reference = J3;
+ValeurCmp = JTAG;
+IdModule  = pin_strip_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353B7F4;
+Reference = LD1;
+ValeurCmp = RED;
+IdModule  = led_3mm_red;
+EndCmp
+
+BeginCmp
+TimeStamp = /534FE336;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354B0A1;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5353B81E;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354BD21;
+Reference = SW1;
+ValeurCmp = ~READ~/WRITE;
+IdModule  = switch_mmp122-r;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354BD34;
+Reference = SW2;
+ValeurCmp = ROM0ENABLE;
+IdModule  = pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5354BD3A;
+Reference = SW3;
+ValeurCmp = ROM7ENABLE;
+IdModule  = pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /534D1E0B;
+Reference = U1;
+ValeurCmp = W29C040 or SST39V040;
+IdModule  = plcc32_pth-skt;
+EndCmp
+
+BeginCmp
+TimeStamp = /535360C6;
+Reference = U2;
+ValeurCmp = XC9536PC44;
+IdModule  = plcc44_pth-skt;
+EndCmp
+
+EndListe

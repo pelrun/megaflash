@@ -1,4 +1,4 @@
-update=19/04/2014 8:24:18 PM
+update=21/04/2014 4:27:58 PM
 version=1
 last_client=eeschema
 [pcbnew]
@@ -80,7 +80,7 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=../libKiCad/symbol
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -99,4 +99,8 @@ LibName10=w_rtx
 LibName11=w_transistor
 LibName12=w_vacuum
 LibName13=C:/Users/James/Documents/Projects/KicadProjects/ti-stellaris-boosterpack40/bluetooth
-LibName14=74xx
+LibName14=xilinx
+LibName15=conn
+LibName16=device
+LibName17=interface
+LibName18=linear
