@@ -1,0 +1,17 @@
+Id	Designator	Package	Quantity	Designation	Supplier and ref	
+1	C1	c_elec_3x5.3	1	100u	Digikey	493-3677-1-ND 
+2	C2,C3,C4,C5	c_0805	4	10n	Digikey	1276-1015-1-ND 
+3	J1	vasch_strip_25x2	1	CPC_EXTPORT	Digikey	ED10530-ND 
+4	R1,R3	r_0805	2	1k	Digikey	311-1.0KARCT-ND
+5	U1	plcc32_pth-skt	1	W29C040 or SST39V040	Digikey	ED90007-ND 
+6	D1,D2,D3	sod323	3	DIODE	Digikey	BAS316-TPMSCT-ND 
+7	SW1	switch_eg1213_spdt	1	~READ~/WRITE	Digikey	EG1906-ND
+8	SW2	pin_strip_3	1	ROM0ENABLE	Digikey	
+9	SW3	pin_strip_3	1	ROM7ENABLE	Digikey	
+10	U2	plcc44_pth-skt	1	XC9536PC44	Digikey	AE10057-ND 
+11	J2	pin_strip_2x2	1	PROG	Digikey	
+12	R2,R4	r_0805	1	10k	Digikey	311-10KARCT-ND
+13	LD1	led_3mm_red	1	RED	Digikey	
+14	J3	pin_strip_6	1	JTAG	Digikey	
+15	U1	plcc32	1	W29C040 or SST39V040	Digikey	SST39SF040-70-4C-NHE-ND 
+16	U2	plcc44	1	XC9536PC44	Digikey	122-1570-ND
