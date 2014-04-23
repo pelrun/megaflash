@@ -15,3 +15,5 @@ Id	Designator	Package	Quantity	Designation	Supplier and ref
 14	J3	pin_strip_6	1	JTAG	Digikey	
 15	U1	plcc32	1	W29C040 or SST39V040	Digikey	SST39SF040-70-4C-NHE-ND 
 16	U2	plcc44	1	XC9536PC44	Digikey	122-1570-ND
+17	C6,C7	c_0805	2	1u	Digikey	1276-1029-1-ND
+18	U3	sot23-5	1	TLV70033	Digikey	296-27937-1-ND
